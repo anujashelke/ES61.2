@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+
+<title> ES6 1 </title>
+
+</head>
+
+<body>
+
+<script>
+
+class vehical{
+
+	constructor (name, type){
+
+		this.name= name;
+		this.type=type;
+	}
+
+	get getName(){
+
+		return (this.name);
+	}
+
+	get getType(){
+
+		return (this.type);
+	}
+}
+
+
+
+var x= new vehical ('tavera', 'SUV');
+
+console.log(`name is ${x.getName} and type is ${x.getType}`);
+
+</script>
+
+</body>
+
+</html>
